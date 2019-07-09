@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Hardwix | Products</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="css/responsive.css" type="text/css"/>
+    <script src="https://kit.fontawesome.com/88934ffa22.js"></script>
+</head>
+<body>
+        <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg navbar-light fixed-top header ">
+                    <div class="container">
+                            <a class="navbar-brand bela" href="index.html">Hardwix</a>
+                            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon belo"></span>
+                            </button>
+                        
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto ">
+                                <li class="nav-item">
+                                <a class="nav-link bela text-center" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link bela text-center" href="products.html">Products</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link bela text-center" href="contact.html" tabindex="-1" aria-disabled="true">Contact</a>
+                                </li>
+                                <li class="nav-item" id="spliter"></li>
+                                <li class="nav-item d-flex align-items-center ml-2 justify-content-center" ><a href=""><i class="fas fa-shopping-cart roza"></i></a></li>
+                            </ul>
+                            <form action="search.php" method="POST" class="input-group col-md-3  col-sm-5 col-6 centar" >
+                                    <input class="form-control" type="search" placeholder="search" id="search">
+                                    <span class="input-group-append">
+                                    <button class="btn btn-outline-secondary" type="button">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                    </span>
+                            <form>
+                            </div>
+                    </div>
+                  </nav>
+            </div> 
+            <div class="container" id="slider">
+                <h1 class="text-center">Our products on weekly sale</h1>
+                <div class="row">
+                    <div class="col-lg-9 mx-auto">
+                      <div id="carouselExampleIndicators" class="carousel slide mt-3" data-ride="carousel" data-interval="2100">
+                        <ol class="carousel-indicators d-none d-sm-flex">
+                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img class="d-block w-100 img-fluid rounded" src="img/comp.jpg" alt="pc"/>
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100 img-fluid rounded" src="img/laptop.jpg" alt="laptop"/>
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100 img-fluid rounded" src="img/graficka.jpg" alt="graphic card"/>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+              <h2 class="text-center my-4 podnaslov">Products that we offer</h2>
+              <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                  <div class="col-12">
+                    <div class="card mb-3">
+                      <img class="card-img-top" src="img/rx580.jpg" alt="Rtx"/>
+                      <div class="card-body text-center">
+                        <h5 class="card-title">Radeon RX 580</h5>
+                        <p class="card-text">Price</p>
+                        <p class="price font-weight-bold">220&euro;</p>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item product-height d-flex align-items-center"><p class="specs">Model: RX-580P8DFD6</p></li>
+                        <li class="list-group-item product-height d-flex align-items-center"><p class="specs">Manufacturer: AMD</p></li>
+                        <li class="list-group-item product-height d-flex align-items-center"><p class="specs">Chipset mark: RX580</p></li>
+                      </ul>
+                      <div class="card-body d-flex align-items-center justify-content-center">
+                        <button type="button" class="btn details mr-2 my-auto" value="Details" data-toggle="modal" data-target="#rx">Details</button>
+                        <a href="#" class="card-link btn buy">Buy</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="col-12">
+                    <div class="card mb-3">
+                      <img class="card-img-top" src="img/lite-pro.jpg" alt="Lite"/>
+                      <div class="card-body text-center">
+                        <h5 class="card-title">A-Comp Lite Pro</h5>
+                        <p class="card-text">Price</p>
+                        <p class="price font-weight-bold">400&euro;</p>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item product-height d-flex align-items-center"><p class="specs">Purpose: Office and business</p></li>
+                        <li class="list-group-item product-height d-flex align-items-center"><p class="specs">Processor: Intel Celeron G4900</p</li>
+                        <li class="list-group-item product-height d-flex align-items-center"><p class="specs">Graphic card: Intel UHD Graphics 610</p></li>
+                      </ul>
+                      <div class="card-body d-flex align-items-center justify-content-center">
+                        <button type="button" class="btn details mr-2" value="Details" data-toggle="modal" data-target="#lite">Details</button>
+                        <a href="#" class="card-link btn buy">Buy</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="col-12">
+                    <div class="card mb-3">
+                      <img class="card-img-top" src="img/asrock.jpg" alt="asrock"/>
+                      <div class="card-body text-center">
+                        <h5 class="card-title">ASRock AB350M</h5>
+                        <p class="card-text">Price</p>
+                        <p class="price font-weight-bold">80&euro;</p>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item product-height d-flex align-items-center"><p class="specs">Chipset: B350</p></li>
+                        <li class="list-group-item product-height d-flex align-items-center"><p class="specs"> Type: DDR4</p></li>
+                        <li class="list-group-item product-height d-flex align-items-center"><p class="specs">Memory slots: 4</p></li>
+                      </ul>
+                      <div class="card-body d-flex align-items-center justify-content-center">
+                        <button type="button" class="btn details mr-2" value="Details" data-toggle="modal" data-target="#asrock">Details</button>
+                        <a href="#" class="card-link btn buy">Buy</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="col-12">
+                    <div class="card mb-3">
+                      <img class="card-img-top" src="img/spectre.png" alt="spectre"/>
+                      <div class="card-body text-center">
+                        <h5 class="card-title">HP Spectre</h5>
+                        <p class="card-text">Price</p>
+                        <p class="price font-weight-bold">940&euro;</p>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item product-height d-flex align-items-center"><p class="specs">Purpose: Office and business</p></li>
+                        <li class="list-group-item product-height d-flex align-items-center"><p class="specs">Processor: Intel Core i5</p></li>
+                        <li class="list-group-item product-height d-flex align-items-center"><p class="specs">Graphic card: Intel HD Graphics 520</p></li>
+                      </ul>
+                      <div class="card-body d-flex align-items-center justify-content-center">
+                        <button type="button" class="btn details mr-2" value="Details" data-toggle="modal" data-target="#spectre">Details</button>
+                        <a href="#" class="card-link btn buy">Buy</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                  <div class="col-12">
+                    <div class="card mb-3">
+                      <img class="card-img-top" src="img/altos.jpg" alt="Altos"/>
+                      <div class="card-body text-center">
+                        <h5 class="card-title">Altos Rocket</h5>
+                        <p class="card-text">Price</p>
+                        <p class="price font-weight-bold">420&euro;</p>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item product-height d-flex align-items-center"><p class="specs">Purpose: Movies, music, internet</p></li>
+                        <li class="list-group-item product-height d-flex align-items-center" ><p class="specs">Processor: Intel Pentium G4560</p></li>
+                        <li class="list-group-item product-height d-flex align-items-center"><p class="specs">Graphic card: nVidia GeForce GTX1050</p></li>
+                      </ul>
+                      <div class="card-body d-flex align-items-center justify-content-center">
+                        <button type="button" class="btn details mr-2" value="Details" data-toggle="modal" data-target="#rocket">Details</button>
+                        <a href="#" class="card-link btn buy">Buy</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="col-12">
+                    <div class="card mb-3">
+                      <img class="card-img-top" src="img/zodiac.jpg" alt="Zodiac"/>
+                      <div class="card-body text-center">
+                        <h5 class="card-title product-title">GeForce RTX 2080</h5>
+                        <p class="card-text">Price</p>
+                        <p class="price font-weight-bold">950&euro;</p>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item product-height d-flex align-items-center"><p class="specs">Model: ZT-T20800F</p></li>
+                        <li class="list-group-item product-height d-flex align-items-center"><p class="specs">Chipset manufacturer: nVidia</p></li>
+                        <li class="list-group-item product-height d-flex align-items-center"><p class="specs">Chipset mark: RTX 2080</p></li>
+                      </ul>
+                      <div class="card-body d-flex align-items-center justify-content-center">
+                        <button type="button" class="btn details mr-2 my-auto" value="Details" data-toggle="modal" data-target="#zodiac">Details</button>
+                        <a href="#" class="card-link btn buy">Buy</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="col-12">
+                    <div class="card mb-3">
+                      <img class="card-img-top" src="img/lgpc.jpg" alt="Lg"/>
+                      <div class="card-body text-center">
+                        <h5 class="card-title">LG Gaming</h5>
+                        <p class="card-text">Price</p>
+                        <p class="price font-weight-bold">1050&euro;</p>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item product-height d-flex align-items-center"><p class="specs">Purpose: Gaming</p></li>
+                        <li class="list-group-item product-height d-flex align-items-center"><p class="specs">Processor: Intel Core i7</p></li>
+                        <li class="list-group-item product-height d-flex align-items-center"><p class="specs">Graphic card: nVidia GeForce RTX 2080</p></li>
+                      </ul>
+                      <div class="card-body d-flex align-items-center justify-content-center">
+                        <button type="button" class="btn details mr-2" value="Details" data-toggle="modal" data-target="#lgpc">Details</button>
+                        <a href="#" class="card-link btn buy">Buy</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="col-12">
+                    <div class="card mb-3">
+                      <img class="card-img-top" src="img/1080.jpg" alt="GTX"/>
+                      <div class="card-body text-center">
+                        <h5 class="card-title">GeForce GTX 1080</h5>
+                        <p class="card-text">Price</p>
+                        <p class="price font-weight-bold">65&euro;</p>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item product-height d-flex align-items-center"><p class="specs">Model: GT-F20702G</p></li>
+                        <li class="list-group-item product-height d-flex align-items-center"><p class="specs">Manufacturer: Nvidia</p></li>
+                        <li class="list-group-item product-height d-flex align-items-center"><p class="specs">Mark: GTX 1080</p></li>
+                      </ul>
+                      <div class="card-body d-flex align-items-center justify-content-center">
+                        <button type="button" class="btn details mr-2 my-auto" value="Details" data-toggle="modal" data-target="#gtx">Details</button>
+                        <a href="#" class="card-link btn buy">Buy</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <footer class="container-fluid">
+                <div class="container px-0 px-sm-5">
+                    <div class="row px-5">
+                        <div class="col-lg-6">
+                            <div class="row  my-4 justify-content-center justify-content-lg-start">
+                                    <div class="col-1 px-4 text-center svetla rounded d-flex align-items-center justify-content-center visina">
+                                        <i class="fas fa-map-marker roza ikonica"></i>
+                                    </div>
+                                    <div class="col-8 col-md-4 col-lg-8">
+                                        <p class="text-white" id="lokacija">Zdravka Čelara 11</p>
+                                        <h5 class="text-white font-weight-bold">Belgrade, Serbia</h5>
+                                    </div>
+                            </div>
+                            <div class="row mb-4 justify-content-center justify-content-lg-start">
+                                        <div class="col-1 px-4 text-center svetla rounded d-flex align-items-center justify-content-center visina">
+                                            <i class="fas fa-phone roza ikonica"></i>
+                                        </div>
+                                            <div class="col-8 col-md-4 col-lg-8 d-flex align-items-center">
+                                                <h5 class="font-weight-bold text-white">+381 11 123 321</h5>
+                                            </div>                                        
+                            </div>
+                            <div class="row mb-4 mt-2 justify-content-center justify-content-lg-start">
+                                        <div class="col-1 px-4 text-center svetla rounded d-flex align-items-center justify-content-center visina">
+                                            <i class="fas fa-envelope roza ikonica"></i>
+                                            </div>
+                                            <div class="col-8 col-md-4 col-lg-8 d-flex align-items-center">
+                                                <a class="font-weight-bold" id="mailto" href="mailto:hardwix@gmail.com">hardwix@gmail.com</a>
+                                            </div>                                       
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <h5 class="mt-4 text-white font-weight-bold text-center " id="company">About the company</h5>
+                            <p class="text-white" id="opis">Hardwix is private company, established in 2012.  powered and owned by Nikola Kralj. Throughout 7 years period we made tremendeous standard changing improvements in a way of price and quality.</p>
+                            <div class="row my-2 justify-content-start justify-content-sm-center justify-content-lg-start" id="social">
+                                <div class="col-2 col-md-1 col-lg-2 mx-2">
+                                    <a href="https://www.facebook.com/" target="_blank">
+                                        <div class="col-12 px-4 rounded d-flex align-items-center justify-content-center visina svetla mt-1">
+                                            <i class="fab fa-facebook-f roza ikonica"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-2 col-md-1 col-lg-2 mx-2">
+                                    <a href="https://www.instagram.com/" target="_blank">
+                                        <div class="col-12  px-4 rounded d-flex align-items-center justify-content-center visina svetla mt-1">
+                                            <i class="fab fa-instagram roza ikonica"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-2 col-md-1 col-lg-2 mx-2">
+                                    <a href="css/style.scss"target="_blank">
+                                        <div class="col-12 px-4 rounded d-flex align-items-center justify-content-center visina svetla mt-1">
+                                            <i class="fab fa-sass roza ikonica"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-2 col-md-1 col-lg-2 mx-2">
+                                    <a href="css/responsive.css" target="_blank">
+                                        <div class="col-12 px-4 rounded d-flex align-items-center justify-content-center visina svetla mt-1">
+                                            <i class="fas fa-file-code roza ikonica"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="row">
+                        <div class="container-fluid text-center" id="copyright">
+                            <p class="text-white py-1">&copy;Nikola Kralj 2019 | All rights reserved</p>
+                        </div>
+                </div>
+            </footer>
+            <!--MODALI-->
+            <div class="modal fade" id="rx" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Radeon RX 580</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                        <table class="table table-striped">
+                            <thead>
+                              <tr>
+                                <th colspan="2"class="text-center">Specifications</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">Graphic Interface</th>
+                                <td class="text-center">PCI-E 3.0</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Graphics chip speed</th>
+                                <td class="text-center">1386 MHz</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Memory type</th>
+                                <td class="text-center">GDDR5</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Memory speed</th>
+                                <td class="text-center">7000 MHz</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Memory bus</th>
+                                <td class="text-center">256-bit</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Cooling</th>
+                                <td class="text-center">Active</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Voltage connectors</th>
+                                <td class="text-center">1x 8-pin</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Consumption</th>
+                                <td class="text-center">225W</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Slots</th>
+                                <td class="text-center">2</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Manufacturer Warranty</th>
+                                <td class="text-center">36 months</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal fade" id="gtx" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">GeForce GTX 1080</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                        <table class="table table-striped">
+                            <thead>
+                              <tr>
+                                <th colspan="2"class="text-center">Specifications</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">Graphic Interface</th>
+                                <td class="text-center">PCI-E 3.0</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Graphics chip speed</th>
+                                <td class="text-center">1721 MHz</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Memory type</th>
+                                <td class="text-center">GDDR5</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Memory speed</th>
+                                <td class="text-center">10010 MHz</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Memory bus</th>
+                                <td class="text-center">256-bit</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Cooling</th>
+                                <td class="text-center">Active</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Voltage connectors</th>
+                                <td class="text-center">1x 8-pin</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Consumption</th>
+                                <td class="text-center">270W</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Slots</th>
+                                <td class="text-center">2</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Manufacturer Warranty</th>
+                                <td class="text-center">36 months</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal fade" id="zodiac" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">GeForce RTX 2080</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                        <table class="table table-striped">
+                            <thead>
+                              <tr>
+                                <th colspan="2"class="text-center">Specifications</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">Graphic Interface</th>
+                                <td class="text-center">PCI-E 3.0</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Graphics chip speed</th>
+                                <td class="text-center">1770 Mhz</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Memory type</th>
+                                <td class="text-center">GDDR6</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Memory speed</th>
+                                <td class="text-center">14000 MHz</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Memory bus</th>
+                                <td class="text-center">256-bit</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Cooling</th>
+                                <td class="text-center">Active</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Voltage connectors</th>
+                                <td class="text-center">1x 8-pin</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Consumption</th>
+                                <td class="text-center">215W</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Slots</th>
+                                <td class="text-center">2</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Manufacturer Warranty</th>
+                                <td class="text-center">36 months</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal fade" id="lgpc" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">LG Gaming PC</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                        <table class="table table-striped">
+                            <thead>
+                              <tr>
+                                <th colspan="2"class="text-center">Specifications</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">Motherboard</th>
+                                <td class="text-center">ASRock AB350M Pro4</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Processor clock</th>
+                                <td class="text-center">4.60 GHz</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Cooler</th>
+                                <td class="text-center">Intel Stock Cooler</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Sound card</th>
+                                <td class="text-center">7.1 System (integrated on the system board)</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >SSD</th>
+                                <td class="text-center">200GB SATA3 / 2.5</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Hard disk capacity</th>
+                                <td class="text-center">2TB SATA3</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Consumption</th>
+                                <td class="text-center">340W</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Manufacturer Warranty</th>
+                                <td class="text-center">1 year</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal fade" id="lite" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">A-Comp Lite Pro</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                        <table class="table table-striped">
+                            <thead>
+                              <tr>
+                                <th colspan="2"class="text-center">Specifications</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">Motherboard</th>
+                                <td class="text-center">LGA1151 H310, 2x DIMM DDR4</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Processor clock</th>
+                                <td class="text-center">3.10GHz</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Cooler</th>
+                                <td class="text-center">Intel Stock Cooler</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Sound card</th>
+                                <td class="text-center">7.1 System (integrated on the system board)</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >SSD</th>
+                                <td class="text-center">120GB SATA3 / 2.5</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Hard disk capacity</th>
+                                <td class="text-center">500GB SATA2</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Consumption</th>
+                                <td class="text-center">500W</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Manufacturer Warranty</th>
+                                <td class="text-center">36 months</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal fade" id="asrock" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">ASRock AB350M</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                        <table class="table table-striped">
+                            <thead>
+                              <tr>
+                                <th colspan="2"class="text-center">Specifications</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">Panel format</th>
+                                <td class="text-center">Micro-ATX</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Slot / Socket</th>
+                                <td class="text-center">AM4</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Maximum amount of memory</th>
+                                <td class="text-center">64GB</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >SATA connectors</th>
+                                <td class="text-center">4 x SATA3</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >USB ports on the back</th>
+                                <td class="text-center">	2 x USB 2.0 Ports</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Manufacturer Warranty</th>
+                                <td class="text-center">36 months</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal fade" id="spectre" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">HP Spectre</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                        <table class="table table-striped">
+                            <thead>
+                              <tr>
+                                <th colspan="2"class="text-center">Specifications</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">RAM</th>
+                                <td class="text-center">8 GB</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Processor clock</th>
+                                <td class="text-center">2.3 GHz</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Operating system</th>
+                                <td class="text-center">Windows 10 Home 64-bit Edition</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Battery run time</th>
+                                <td class="text-center">9.75 hours</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >SSD</th>
+                                <td class="text-center">256 GB</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Monitor diagonal size</th>
+                                <td class="text-center">13.3 in</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Monitor type</th>
+                                <td class="text-center">Led</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Resolution</th>
+                                <td class="text-center">1920 x 1080 (Full HD)</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Manufacturer Warranty</th>
+                                <td class="text-center">36 months</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal fade" id="rocket" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Altos Rocket</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                        <table class="table table-striped">
+                            <thead>
+                              <tr>
+                                <th colspan="2"class="text-center">Specifications</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">Motherboard</th>
+                                <td class="text-center">LGA1151 H110M</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Processor clock</th>
+                                <td class="text-center">3,50Ghz</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Cooler</th>
+                                <td class="text-center">Intel Stock Cooler</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Sound card</th>
+                                <td class="text-center">7.1 System (integrated on the system board)</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Hard disk capacity</th>
+                                <td class="text-center">1TB SATA3</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Consumption</th>
+                                <td class="text-center">500W</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" >Manufacturer Warranty</th>
+                                <td class="text-center">36 months</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--KRAJ MODALA-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
