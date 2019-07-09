@@ -10,6 +10,7 @@ $text:#484e52;
 nav{
     background-color: rgba(0, 0, 0, 0.35);
     line-height: 1.5;
+    height: auto!important;
     i{
         font-size: 16px!important;
         height: auto;
@@ -21,6 +22,15 @@ nav{
                 background-color: transparent;
             }
         }
+    }
+}
+nav{
+    button:focus{
+        background-color: inherit;
+        outline: none!important;
+    }
+    .btn:focus{
+        background-color: inherit;
     }
 }
 .row{
@@ -69,7 +79,7 @@ p{
 }
 
 #spliter{
-    border-right: 2px solid grey;
+    border-right: 2px solid  #c4c4c4;
     padding:0px 3px;
 }
 #shop{
@@ -237,4 +247,33 @@ h5{
 }
 .product-title{
     font-size: 15.8px;
+}
+.input-field {
+    .dropdown-content{
+        li>span{
+            color:$text;
+        }
+    }
+    input[type=text]:focus + label{
+        color: $text!important;
+    }
+    input[type=text]:focus{
+        border-bottom: 1px solid $text!important;
+        box-shadow: 0 1px 0 0 $text!important;
+    }
+}
+textarea.materialize-textarea:focus{
+        border-bottom: 1px solid $text!important;
+        box-shadow: 0 1px 0 0 $text!important;
+}
+textarea.materialize-textarea:focus + label{
+    color: $text!important;
+}
+#prelaz:hover, #prelaz:active, #prelaz:focus{
+    background-color: $text;
+    color: white;
+    outline: none!important;
+}
+.btn-floating{
+    background-color: $roza!important;
 }

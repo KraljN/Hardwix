@@ -5,7 +5,8 @@
 /*Ponistavanje materialize*/
 nav {
   background-color: rgba(0, 0, 0, 0.35);
-  line-height: 1.5; }
+  line-height: 1.5;
+  height: auto !important; }
   nav i {
     font-size: 16px !important;
     height: auto; }
@@ -13,6 +14,12 @@ nav {
     padding: 0px; }
     nav ul a:hover {
       background-color: transparent; }
+
+nav button:focus {
+  background-color: inherit;
+  outline: none !important; }
+nav .btn:focus {
+  background-color: inherit; }
 
 .row {
   margin-bottom: 0px; }
@@ -60,7 +67,7 @@ p {
         font-size: calc(1.375rem + 1.5vw) ; } }
 
 #spliter {
-  border-right: 2px solid grey;
+  border-right: 2px solid  #c4c4c4;
   padding: 0px 3px; }
 
 #shop {
@@ -232,5 +239,28 @@ h5 {
 
 .product-title {
   font-size: 15.8px; }
+
+.input-field .dropdown-content li > span {
+  color: #484e52; }
+.input-field input[type=text]:focus + label {
+  color: #484e52 !important; }
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #484e52 !important;
+  box-shadow: 0 1px 0 0 #484e52 !important; }
+
+textarea.materialize-textarea:focus {
+  border-bottom: 1px solid #484e52 !important;
+  box-shadow: 0 1px 0 0 #484e52 !important; }
+
+textarea.materialize-textarea:focus + label {
+  color: #484e52 !important; }
+
+#prelaz:hover, #prelaz:active, #prelaz:focus {
+  background-color: #484e52;
+  color: white;
+  outline: none !important; }
+
+.btn-floating {
+  background-color: #e3cdb3 !important; }
 
 /*# sourceMappingURL=style.css.map */

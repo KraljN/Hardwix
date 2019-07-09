@@ -99,4 +99,8 @@
         .carousel-item{
             height:auto;
         }
+        .mapouter{
+            height: 500px!important;
+            width: 100%!important;
+        }
      }

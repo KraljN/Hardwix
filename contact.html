@@ -36,8 +36,8 @@
                                 <li class="nav-item" id="spliter"></li>
                                 <li class="nav-item d-flex align-items-center ml-2 justify-content-center" ><a href=""><i class="fas fa-shopping-cart roza"></i></a></li>
                             </ul>
-                            <form action="search.php" method="POST" class="input-group col-md-3  col-sm-5 col-6 centar" >
-                                    <input class="form-control" type="search" placeholder="search" id="search">
+                            <form action="#" method="POST" class="input-group col-md-3  col-sm-5 col-6 centar" >
+                                    <input class="form-control" type="search" placeholder="search" id="search"/>
                                     <span class="input-group-append">
                                     <button class="btn btn-outline-secondary" type="button">
                                         <i class="fa fa-search"></i>
@@ -50,27 +50,32 @@
             </div> 
             <div class="container mt-5">
                 <div class="row">
-                    <div class="col-7 mt-5">
-                        <h1 class="center-align mb-5">Contact us</h1>
-                        <div class="row">
-                            <div class="col-12">
+                    <div class="col-lg-7   mt-5">
+                        <h1 class="center-align mt-3 mb-5 podnaslov">Contact us</h1>
+                        <div class="row mt-5">
+                            <div class="col-12 mt-5 mx-auto">
                                 <form action="#" method="GET" name="contact">
-                                    <div class="row">
-                                        <div class="col-6 input-field">
-                                            <input id="first_name" name="first_name" type="text" class="validate">
+                                        <div class="container">
+                                    <div class="row mt-5">
+                                        <div class="col-12 col-sm-6 input-field mt-3">
+                                            <input id="first_name" name="first_name" type="text" class="validate"/>
                                             <label class="ml-3" for="first_name">First Name</label>
                                         </div>
-                                        <div class="col-6 input-field">
-                                                <input id="last_name" name="last_name" type="text" class="validate">
+                                        <div class="col-12 col-sm-6 input-field">
+                                                <input id="last_name" name="last_name" type="text" class="validate"/>
                                                 <label class="ml-3" for="last_name">Last Name</label>
                                             </div>
                                     </div>
+                                </div>
+                                <div class="container">
                                     <div class="row mb-3">
                                         <div class="col-12 input-field">
-                                                <input id="email" name="email" type="text" class="validate">
+                                                <input id="email" name="email" type="text" class="validate"/>
                                                 <label class="ml-3" for="email">Email</label>
                                         </div>
                                     </div>
+                                </div>
+                                <div class="container">
                                     <div class="row">
                                         <div class="col-12 input-field">
                                                 <select class="mt-5" id="subject">
@@ -81,21 +86,36 @@
                                                 <label for="subject" class="ml-3">Subject</label>
                                         </div>
                                     </div>
-                                    <div class="row mb-5">
+                                </div>
+                                <div class="container">
+                                    <div class="row">
                                         <div class="input-field col-12">
                                             <textarea id="message" name="message" class="materialize-textarea"></textarea>
                                             <label class="ml-3" for="message">Message</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                    <div class="row mb-2">
+                                        <div class="col-12 center-align mb-5">
+                                            <button class="btn waves-effect waves-light" id="prelaz" type="submit" name="action">Submit
+                                                    <i class="fas fa-paper-plane"></i>
+                                            </button>
                                         </div>
                                     </div>
                                 </form>
                             </div>
                         </div>
                     </div>
-                    <div class="col-5 mt-5">
-                            <h2 class="center-align">Locate us</h2>
-                        </div>
+                    <div class="col-lg-5 mt-5">
+                        <h2 class="center-align mt-3 mb-5 podnaslov">Locate us</h2>
+                        <div class="mapouter img-fluid my-5 mx-auto"><div class="gmap_canvas img-fluid mt-5"><iframe width="500" height="490" id="gmap_canvas" src="https://maps.google.com/maps?q=zdravka%20celara%2016&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.enable-javascript.net">enable-javascript.net</a></div><style>.mapouter{position:relative;text-align:right;height:490px;width:500px;}.gmap_canvas {overflow:hidden;background:none!important;height:490px;width:500px;}</style></div>
+                    </div>
                 </div>
-
+            </div>
+            <div class="fixed-action-btn">
+                <a class="btn-floating btn-large waves-effect waves-light">
+                    <i class="fas fa-id-card"></i>
+                </a>
             </div>
             <footer class="container-fluid">
                     <div class="container px-0 px-sm-5">
@@ -106,7 +126,7 @@
                                             <i class="fas fa-map-marker roza ikonica"></i>
                                         </div>
                                         <div class="col-8 col-md-4 col-lg-8">
-                                            <p class="text-white" id="lokacija">Zdravka Čelara 11</p>
+                                            <p class="text-white" id="lokacija">Zdravka Čelara 16</p>
                                             <h5 class="text-white font-weight-bold">Belgrade, Serbia</h5>
                                         </div>
                                 </div>
