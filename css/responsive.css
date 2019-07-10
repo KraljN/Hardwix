@@ -1,0 +1,132 @@
+@media screen and (max-width: 1199.98px) { 
+    .carousel-item{
+        width: 100%;
+        height:440px;
+    }
+    .specs{
+        font-size: 14px;
+    }
+    .product-height{
+        height: 100px;
+    }
+ }
+ @media screen and (max-width: 991.98px) { 
+    .centar{
+        margin: 0px auto;
+    }
+    #pozChipset{
+        background-image:url('../img/pozadinachipsett.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .text h3{
+        color: black;
+        margin-top: 12%;
+    }
+    .text p{
+        color: black;
+        margin-top: 10%;
+    }
+    #korpa{
+        margin-left: 0px!important;
+        margin-bottom: .5rem;
+    }
+    .belaOnly{
+        color: white!important;
+    }
+    #pozComputer{
+        background-image:url('../img/pozadinacomputer.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    #pozDelivery{
+        background-image:url('../img/podazinadelivery.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .podnaslov{
+        margin-top: 1rem;
+    }
+    .carousel-item{
+        height:435px;
+    }
+    .specs{
+        font-size: 16px;
+    }
+    .product-height{
+        height: 85px;
+    }
+    .korisnici{
+        height: 170px;
+    }
+     }
+     @media screen and (max-width: 767.98px) { 
+        .carousel-item{
+            height:335px;
+        }
+        .specs{
+            font-size: 15px;
+        }
+        .product-height{
+            height: 100px;
+        }
+        .korisnici{
+            height: 140px;
+        }
+        .autor-text{
+            font-size: 15px;
+        }
+    }
+    @media screen and (max-width: 700px){
+        .info{
+            margin-top:15%;
+        }
+        .autor-text{
+            font-size: 14px;
+        }
+    }
+    @media screen and (max-width: 575.98px) { 
+        h5{
+            font-size: 15px;
+        }
+        #mailto{
+            font-size: 15px;
+        }
+        #opis{
+            font-size: 14px;
+        }
+        #lokacija{
+            font-size: 14px;
+        }
+        .specs{
+            font-size: 18px;
+        }
+        .korisnici{
+            height: auto;
+        }
+        .carousel-item{
+            height:auto;
+        }
+        .mapouter{
+            height: 500px!important;
+            width: 100%!important;
+        }
+        .autor-text{
+            font-size: 16px;
+        }
+        .left-margin{
+            margin-left: 33%;
+        }
+        #modal-naslov{
+            font-size: 27px;
+        }
+
+     }
+     @media screen and (max-width: 400px){
+        .left-margin{
+            margin-left: 0px;
+        }
+     }
