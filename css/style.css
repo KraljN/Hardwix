@@ -3,6 +3,10 @@
   font-family: "Rubik", sans-serif; }
 
 /*Ponistavanje materialize*/
+.modal {
+  background-color: transparent;
+  max-height: 100%; }
+
 nav {
   background-color: rgba(0, 0, 0, 0.35);
   line-height: 1.5;
@@ -247,6 +251,12 @@ h5 {
 .input-field input[type=text]:focus {
   border-bottom: 1px solid #484e52 !important;
   box-shadow: 0 1px 0 0 #484e52 !important; }
+.input-field input[type=email]:focus + label {
+  color: #484e52 !important; }
+
+input[type=email]:focus {
+  border-bottom: 1px solid #484e52 !important;
+  box-shadow: 0 1px 0 0 #484e52 !important; }
 
 textarea.materialize-textarea:focus {
   border-bottom: 1px solid #484e52 !important;
@@ -262,5 +272,35 @@ textarea.materialize-textarea:focus + label {
 
 .btn-floating {
   background-color: #e3cdb3 !important; }
+
+.border-none {
+  border-bottom: 0px; }
+
+.left-margin {
+  margin-left: 45%; }
+
+.modal-width {
+  max-width: 770px; }
+
+.info {
+  margin-top: 35%; }
+
+.btn-large:focus {
+  outline: none; }
+
+.personal {
+  color: #484e52; }
+  .personal:hover {
+    text-decoration: none;
+    color: black; }
+
+#modal-naslov {
+  font-size: 1.6rem; }
+  @media (max-width: 1200px) {
+    #modal-naslov {
+      font-size: calc(1.285rem + 0.42vw) ; } }
+
+.autor-text {
+  font-size: 1rem; }
 
 /*# sourceMappingURL=style.css.map */

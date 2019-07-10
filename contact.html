@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hardwix | Contact</title>
+    <meta name="keywords" content="hardwix, contact, locate, location"/>
+    <meta name="description" content="Contact form and location of Hardwix shop"/>
+    <link rel="shortcut icon " href="img/favicon.ico"/>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
     <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="css/style.css" type="text/css"/>
-    <link rel="stylesheet" href="css/responsive.css" type="text/css"/>
+    <link rel="stylesheet" href="css/style.min.css" type="text/css"/>
+    <link rel="stylesheet" href="css/responsive.min.css" type="text/css"/>
     <script src="https://kit.fontawesome.com/88934ffa22.js"></script>
 </head>
 <body>
@@ -54,7 +57,7 @@
                         <h1 class="center-align mt-3 mb-5 podnaslov">Contact us</h1>
                         <div class="row mt-5">
                             <div class="col-12 mt-5 mx-auto">
-                                <form action="#" method="GET" name="contact">
+                                <form action="contact.php" method="GET" name="contact">
                                         <div class="container">
                                     <div class="row mt-5">
                                         <div class="col-12 col-sm-6 input-field mt-3">
@@ -70,7 +73,7 @@
                                 <div class="container">
                                     <div class="row mb-3">
                                         <div class="col-12 input-field">
-                                                <input id="email" name="email" type="text" class="validate"/>
+                                                <input id="email" name="email" type="email" class="validate"/>
                                                 <label class="ml-3" for="email">Email</label>
                                         </div>
                                     </div>
@@ -90,7 +93,7 @@
                                 <div class="container">
                                     <div class="row">
                                         <div class="input-field col-12">
-                                            <textarea id="message" name="message" class="materialize-textarea"></textarea>
+                                            <textarea id="message" name="message" class="materialize-textarea" required="required"></textarea>
                                             <label class="ml-3" for="message">Message</label>
                                         </div>
                                     </div>
@@ -113,10 +116,38 @@
                 </div>
             </div>
             <div class="fixed-action-btn">
-                <a class="btn-floating btn-large waves-effect waves-light">
+                <button  data-toggle="modal" data-target="#modal1" class="btn-floating btn-large waves-effect waves-light">
                     <i class="fas fa-id-card"></i>
-                </a>
+                </button>
             </div>
+            <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-width" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header border-non">
+                      <h5 class="modal-title left-margin" id="modal-naslov">About me</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-12 col-sm-5">
+                                <img src="img/autor.jpg" alt="autor" class="img-fluid rounded"/>
+                            </div>
+                            <div class="col-12 col-sm-7">
+                                <p class="mt-5 mt-sm-0 autor-text">I am Nikola Kralj, a first year student of ICT colege of aplied studies in Belgrade and I am from Pančevo.  I started creating web sites about year ago and I immediately fell in love with it. After each day spent in IT world, my hunger to learn more increases, and I am fully desired to fullfil it.</p>
+                                <ul class="info">
+                                    <li><p class="autor-text">E-mail: nikolakralj9@gmail.com</p></li>
+                                    <li><p class="autor-text">Facebook: <a class="personal" target="_blank" href="https://www.facebook.com/nikola.kralj.37">Nikola Kralj</a></p></li>
+                                    <li><p class="autor-text">Portfolio: <a class="personal" target="_blank" href="http://nikolakralj.000webhostapp.com/">http://nikolakralj.000webhostapp.com</a></p></li>
+                                    <li><p class="autor-text"> Index nubmer: 76/18</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             <footer class="container-fluid">
                     <div class="container px-0 px-sm-5">
                         <div class="row px-5">
@@ -143,7 +174,7 @@
                                                 <i class="fas fa-envelope roza ikonica"></i>
                                                 </div>
                                                 <div class="col-8 col-md-4 col-lg-8 d-flex align-items-center">
-                                                    <a class="font-weight-bold" id="mailto" href="mailto:hardwix@gmail.com">hardwix@gmail.com</a>
+                                                    <a class="font-weight-bold text-white" id="mailto" href="mailto:hardwix@gmail.com">hardwix@gmail.com</a>
                                                 </div>                                       
                                 </div>
                             </div>
@@ -194,6 +225,23 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="js/script.js"></script>
+    <script type="text/javascript">
+        $(window).on("scroll", function() {
+          if($(window).scrollTop()) {
+                $('nav').addClass('aktivni');
+          }
+      
+          else {
+                $('nav').removeClass('aktivni');
+          }
+      });
+      AOS.init();
+      $(document).ready(function(){
+            $('select').formSelect();
+          });
+      $(document).ready(function(){
+      $('.fixed-action-btn').floatingActionButton();
+      });
+      </script>
 </body>
 </html>

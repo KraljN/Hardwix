@@ -7,6 +7,10 @@ $text:#484e52;
 }
 @import 'rfs_partial.scss';
 /*Ponistavanje materialize*/
+.modal{
+    background-color: transparent;
+    max-height: 100%;
+}
 nav{
     background-color: rgba(0, 0, 0, 0.35);
     line-height: 1.5;
@@ -261,6 +265,13 @@ h5{
         border-bottom: 1px solid $text!important;
         box-shadow: 0 1px 0 0 $text!important;
     }
+    input[type=email]:focus + label{
+        color: $text!important;
+    }
+}
+input[type=email]:focus{
+    border-bottom: 1px solid $text!important;
+    box-shadow: 0 1px 0 0 $text!important;
 }
 textarea.materialize-textarea:focus{
         border-bottom: 1px solid $text!important;
@@ -276,4 +287,32 @@ textarea.materialize-textarea:focus + label{
 }
 .btn-floating{
     background-color: $roza!important;
+}
+.border-none{
+    border-bottom: 0px;
+}
+.left-margin{
+    margin-left: 45%;
+}
+.modal-width{
+    max-width: 770px;
+}
+.info{
+    margin-top: 35%;
+}
+.btn-large:focus{
+    outline: none;
+}
+.personal{
+    &:hover{
+    text-decoration: none;
+    color: black;
+    }
+    color: $text;
+}
+#modal-naslov{
+    @include font-size(1.6rem);
+}
+.autor-text{
+    @include font-size(1rem);
 }

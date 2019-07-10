@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <title>Hardwix | Products</title>
+    <link rel="shortcut icon " href="img/favicon.ico"/>
+    <meta name="keywords" content="hardwix, products, offer, product"/>
+    <meta name="description" content="Products and weekly offer of Hardwix"/>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="css/style.css" type="text/css"/>
-    <link rel="stylesheet" href="css/responsive.css" type="text/css"/>
+    <link rel="stylesheet" href="css/style.min.css" type="text/css"/>
+    <link rel="stylesheet" href="css/responsive.min.css" type="text/css"/>
     <script src="https://kit.fontawesome.com/88934ffa22.js"></script>
 </head>
 <body>
@@ -273,7 +276,7 @@
                                             <i class="fas fa-envelope roza ikonica"></i>
                                             </div>
                                             <div class="col-8 col-md-4 col-lg-8 d-flex align-items-center">
-                                                <a class="font-weight-bold" id="mailto" href="mailto:hardwix@gmail.com">hardwix@gmail.com</a>
+                                                <a class="font-weight-bold text-white" id="mailto" href="mailto:hardwix@gmail.com">hardwix@gmail.com</a>
                                             </div>                                       
                             </div>
                         </div>
@@ -781,5 +784,22 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="js/script.js"></script>
+    <script type="text/javascript">
+      $(window).on("scroll", function() {
+        if($(window).scrollTop()) {
+              $('nav').addClass('aktivni');
+        }
+    
+        else {
+              $('nav').removeClass('aktivni');
+        }
+    });
+    AOS.init();
+    $(document).ready(function(){
+          $('select').formSelect();
+        });
+    $(document).ready(function(){
+    $('.fixed-action-btn').floatingActionButton();
+    });
+    </script>
 </body>
